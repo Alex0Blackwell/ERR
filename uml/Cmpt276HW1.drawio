@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T01:23:16.789Z" agent="5.0 (X11)" etag="K1JZ8joX3rjyBjs-x7Xq" version="14.2.7" type="github"><diagram id="O_u-7tQ61Bx85qdQY5yG" name="Page-1">7Vdtb5swEP41SO2HTgFCl68JaddOzdQtlap9mhxwwKvxMeO89dfvbEwIELZ0a7UvkyLF99ydX+55fHEcP8y2HyTJ0xnElDveIN46/tTxPNcdBfilkV2JXLrvSyCRLLZBNTBnz9SCA4uuWEyLRqAC4IrlTTACIWikGhiREjbNsCXw5qo5SWgHmEeEd9FHFqu0REfBoMZvKEvSamV3YD0ZqYItUKQkhs0B5F85figBVDnKtiHlunhVXcq86x7vfmOSCnVKwvYmWc/CYAbpt8f156/fCR0vLuwsa8JX9sD3VBYg7JbVrqpDsWEZJwKtyRKEmluPjzbhLBE4jnAjVCKwplIxLOHYOhTkiEYp4/Ed2cFKb7dQJHqqrEkKkj3jtISjy0UA3VJZNXiXjYi5zkR4gKikBcbcVzVwW9CMbBuBd6RQFoiAc5IXbGGOoRMzIhMmJqAUZDbIFgePQ7e9VXf3XOIloJBRJXcYYhP8ob0AVv9uJYdNrSbPtTHpgZK8SmLEKjjZz12TjAPL8ws49zqcO54vSIbGGPG5kkwkDlbd87djUwWfZoTxfrdeTvsY1uTQ0dIQVlEZbiU80RA4oFimAkpRMc5bUKUrTpeqV1VFTiLcz52JmQ5r5IstpYYAc5fcXL6UxTEVWhGgiCIl/ZrrHHD3ptTBBD9Y/HDwLnAC3HiItlvb+NHhUoUg8CyEGSVQ1NaGan2dJpv+69jVktWOLu0p0gmGb6Qc/4hyWhxzZrgrOa46pvtHBGdIFac1ow+a8OmF22Hd77LuH2GYkwXl91AwxUDPL8vYFvP/itzRiX1h9EbcDo91BbRY/Albw1m7P5zjqLQX+HNMiWh2BJN4pbvGWad3/Dp1UlDVt2IrrH/+VuBtfHbQolr+xK7XhcvpjjhwvvP/3e21L8DotAvgVl3n1a9AcOQKXHJ95pit9YKWG0R/rPSzbWLI21s4Suy3yWI1MMlRSupWLMHIiZfoNWunIGbWaqJ/vzw+s/KVeoCP+Lard7CQR9b/7Z6O6z5VWfV4O7Wvm0dZr0i1DslKQVG+At23/GF1T2y+w5e/ydCs3/jGd/BPyb/6CQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-26T01:46:01.953Z" agent="5.0 (X11)" etag="zui2wHWNmQJ-aGZ2tIiI" version="14.2.7" type="github">
+  <diagram id="O_u-7tQ61Bx85qdQY5yG" name="Page-1">
+    <mxGraphModel dx="1185" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xHgvMC5Moh_WvQYjaeAb-1" value="Person" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="345" y="120" width="215" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xHgvMC5Moh_WvQYjaeAb-2" value="# name: String&#xa;# email: String&#xa;# id: int&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="xHgvMC5Moh_WvQYjaeAb-1" vertex="1">
+          <mxGeometry y="26" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xHgvMC5Moh_WvQYjaeAb-5" value="&lt;div align=&quot;left&quot;&gt;# validName(name: String) : boolean&lt;br&gt;# validEmail(email: String) : boolean&lt;br&gt;+ setName(name: String)&lt;br&gt;+ setEmail(email: String)&lt;br&gt;+ setId(id: int)&lt;br&gt;+ getName()&lt;br&gt;+ getString()&lt;br&gt;+ getId()&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;+ printInfo()&lt;/i&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;+ outputToJson()&lt;br&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="xHgvMC5Moh_WvQYjaeAb-1" vertex="1">
+          <mxGeometry y="80" width="215" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FwZWtL_WDMAnRfGM-D_V-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;startSize=6;endSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FwZWtL_WDMAnRfGM-D_V-1" target="xHgvMC5Moh_WvQYjaeAb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwZWtL_WDMAnRfGM-D_V-1" value="Instructor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="FwZWtL_WDMAnRfGM-D_V-21" value="&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="FwZWtL_WDMAnRfGM-D_V-1">
+          <mxGeometry y="26" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FwZWtL_WDMAnRfGM-D_V-4" value="+ printInfo()&#xa;+ outputToJson()" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" vertex="1" parent="FwZWtL_WDMAnRfGM-D_V-1">
+          <mxGeometry y="46" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FwZWtL_WDMAnRfGM-D_V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=6;endArrow=block;endFill=0;endSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.498;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FwZWtL_WDMAnRfGM-D_V-9" target="xHgvMC5Moh_WvQYjaeAb-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwZWtL_WDMAnRfGM-D_V-9" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="210" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="FwZWtL_WDMAnRfGM-D_V-10" value="- grade: String" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" vertex="1" parent="FwZWtL_WDMAnRfGM-D_V-9">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FwZWtL_WDMAnRfGM-D_V-12" value="- validGrade(grade: String) : boolean&#xa;+ setGrade(grade: String)&#xa;+ getGrade()&#xa;+ printInfo()&#xa;+ outputToJson()&#xa;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" vertex="1" parent="FwZWtL_WDMAnRfGM-D_V-9">
+          <mxGeometry y="52" width="210" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
